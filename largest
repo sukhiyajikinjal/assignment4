@@ -1,0 +1,25 @@
+var a:[Int]=[43, 5, 1, 14, 3, 8, 72, 4, 6];
+var m,m1,i,j:Int;
+m=a[0];
+m1=0;
+for i in a
+{
+  if(m<i)
+  {
+    m=i;
+  }
+}
+for i in a
+{
+  if(i==m)
+  {
+
+  }
+  else{
+     if(m1<i)
+    {
+      m1=i;
+    }
+  }
+}
+print(m1);
